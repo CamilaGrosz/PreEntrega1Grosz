@@ -1,0 +1,32 @@
+
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+/* NavBar.css */
+.navBar {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    margin-top: 20px;
+    border-bottom: 1px solid black; /* Agrega una línea negra en la parte inferior */
+}
+
+.navBar li {
+margin: 0 10px;
+}
+
+.navBar li a {
+text-decoration: none;
+color: #333;
+font-weight: bold;
+}
+
+.navBar li a:hover {
+color: #aaa7a5;
+}
+
+
+
