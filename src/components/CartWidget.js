@@ -7,7 +7,7 @@ import './CartWidget.css'
 function CartWidget(){
     return(
         <div>
-            <button type="button" class="btn btn-light"><ShoppingCartCheckoutIcon/>3</button> 
+            <button type="button" className="btn btn-light"><ShoppingCartCheckoutIcon/>3</button> 
         </div>  
     );
 }
