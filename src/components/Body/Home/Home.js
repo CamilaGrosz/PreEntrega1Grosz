@@ -12,7 +12,7 @@ function Home({ title }) {
                     ¡Bienvenido a nuestra tienda de productos electrónicos! Aquí encontrarás una amplia variedad de dispositivos de última generación a precios increíbles. ¡Explora nuestra colección y elige tu favorito!
                 </p>
             </div>
-            <Link to={`/catalog`} className="home-button">Explorar Catálogo</Link>
+            <Link to={`/catalog`} className="btn-primary">Explorar Catálogo</Link>
         </div>
     );
 

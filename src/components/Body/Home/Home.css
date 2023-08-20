@@ -31,21 +31,21 @@
     margin-top: 50px;
 }
 
-.home-button {
+
+.btn-primary {
+    background-color: #212224;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
     display: inline-block;
     padding: 15px 30px;
     font-size: 1.2rem;
-    text-transform: uppercase;
-    background-color: #ecf1f3; /* Color de fondo del botón */
-    color: #312d2d;
-    border: none;
-    border-radius: 5px;
     cursor: pointer;
     transition: background-color 0.3s;
     margin-top: 60px;
-    text-decoration: none;
 }
 
-.home-button:hover {
-    background-color: gray; /* Cambia el color de fondo al pasar el cursor */
+.btn-primary:hover {
+    background-color: #4c4e50;
 }

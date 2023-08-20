@@ -1,4 +1,4 @@
-
+import './ProductQuantity.css'
 const ProductQuantity = ({quantity, setQuantity}) => {
 
     // Función para incrementar la cantidad
@@ -15,8 +15,8 @@ const ProductQuantity = ({quantity, setQuantity}) => {
     return (
         <div className="product-detail-container">
             <p>Cantidad: {quantity}</p>
-            <button onClick={decrementQuantity}>-</button>
-            <button onClick={incrementQuantity}>+</button>
+            <button className="decrement" onClick={decrementQuantity}>-</button>
+            <button className="increment" onClick={incrementQuantity}>+</button>
         </div>
     );
 }
