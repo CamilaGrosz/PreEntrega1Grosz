@@ -11,6 +11,8 @@
     padding: 20px;
     background-color: #fff;
     text-align: center;
+    margin: auto;
+    margin-top: 20px;
 }
 
 .card img {
@@ -31,7 +33,7 @@
 }
 
 .card .btn-primary {
-    background-color: #007bff;
+    background-color: #212224;
     color: #fff;
     border: none;
     padding: 8px 16px;
@@ -40,5 +42,5 @@
 }
 
 .card .btn-primary:hover {
-    background-color: #0056b3;
+    background-color: #4c4e50;
 }

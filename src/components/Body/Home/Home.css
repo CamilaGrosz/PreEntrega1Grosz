@@ -1,0 +1,51 @@
+/* Estilos para el contenedor del Home */
+
+.home-container {
+    background-image: url('../../../../public/img/appleImg.jpg'); /* Agrega la URL de tu imagen de fondo */
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    text-align: center;
+    padding: 80px 0;
+    position: relative;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    margin-top: 100px;
+}
+
+.home-title {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+.home-content{
+    margin-top: 20px;
+}
+
+.home-text {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 20px;
+    margin-top: 50px;
+}
+
+.home-button {
+    display: inline-block;
+    padding: 15px 30px;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    background-color: #ecf1f3; /* Color de fondo del botón */
+    color: #312d2d;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-top: 60px;
+    text-decoration: none;
+}
+
+.home-button:hover {
+    background-color: gray; /* Cambia el color de fondo al pasar el cursor */
+}

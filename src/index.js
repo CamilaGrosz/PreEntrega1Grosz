@@ -3,6 +3,19 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import { initializeApp } from "firebase/app";
+
+const firebaseConfig = {
+  apiKey: "AIzaSyDy7L4a8yafZIMqylRQqeHbBpf9k40I2cQ",
+  authDomain: "coderhouse-tiendapple.firebaseapp.com",
+  projectId: "coderhouse-tiendapple",
+  storageBucket: "coderhouse-tiendapple.appspot.com",
+  messagingSenderId: "43487489529",
+  appId: "1:43487489529:web:5892e214180fb220626128",
+  measurementId: "G-NCCSPPZHWQ"
+};
+
+initializeApp(firebaseConfig);
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(

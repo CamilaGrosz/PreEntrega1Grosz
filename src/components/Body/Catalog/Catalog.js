@@ -1,9 +1,11 @@
 import React from 'react';
-import { products } from '../services/products';
+// import { products } from '../../../services/products';
 import { Link } from 'react-router-dom';
 import './Catalog.css'
+import useGetDocuments from '../../../hooks/useGetDocuments';
 
 function Catalog() {
+    const {products} = useGetDocuments("products")
     return (
         <div className="card-container">
             {products.map((product) => (

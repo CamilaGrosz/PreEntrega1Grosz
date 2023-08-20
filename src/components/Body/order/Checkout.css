@@ -1,0 +1,42 @@
+.checkout-container {
+    padding: 20px;
+}
+
+.order-cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.order-card {
+    width: calc(50% - 10px); 
+    border: 1px solid #ddd;
+    padding: 15px;
+    background-color: #f9f9f9;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    border-radius: 8px;
+    transition: transform 0.2s;
+}
+
+.order-card:hover {
+    transform: translateY(-5px);
+}
+
+.order-card h3 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.order-card p {
+    margin: 5px 0;
+    font-size: 1rem;
+    color: #555;
+}
+
+.order-card .total {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #e74c3c;
+}
